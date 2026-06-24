@@ -124,7 +124,7 @@ Due to the heavy compute requirements of LLM-as-a-judge (RAGAS requires a 14B pa
 
 To ensure an objective and rigorous academic evaluation, our test suite comprises 1,000 distinct queries sampled from two benchmark datasets: **SQuAD 2.0** (Stanford Question Answering Dataset) and **HotpotQA** (Multi-hop Question Answering).
 
-![Dataset Analysis Visualizations](results/metrics/dataset_analysis.png)
+![Dataset Analysis Visualizations](results/figures/dataset_analysis.png)
 
 ### Key Academic Features of the Dataset:
 1. **Unanswerable Traps (Hallucination Checks):** 40% of the SQuAD data consists of unanswerable "trick" questions. These queries share high lexical overlap with the context but inquire about altered details (e.g., wrong dates or entities). This rigorously tests the LLM's **Faithfulness** and **Rejection Accuracy**, ensuring the system gracefully outputs "I don't know" rather than hallucinating.
