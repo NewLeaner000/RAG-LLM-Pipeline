@@ -157,7 +157,7 @@ We evaluated the performance of three retrieval strategies across 1,000 QA pairs
 A direct comparison of model parameter scale versus retrieval quality utilizing the identical hybrid infrastructure.
 ![LLM Benchmark](results/figures/llm_benchmark.png)
 
-### ⚡ Advanced Query Routing (Trade-off Analysis)
+### Advanced Query Routing (Trade-off Analysis)
 To optimize production performance, we implemented a heuristic Query Router that dynamically routes simple FACTOID questions to the faster BM25 retriever, while reserving the heavy Hybrid + Reranker pipeline for complex MULTI_HOP queries.
 
 **Results (50 samples):**

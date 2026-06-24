@@ -48,6 +48,8 @@ db.sqlite3-journal
 # Project specific
 data/raw/
 chroma_db/
-results/
+results/**/*.csv
+results/**/*.json
+results/**/*.log
 __pycache__/
 *.pyc
